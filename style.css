@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1240px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+.header-section{
+    background-color: black;
+    padding: 10px 0;
+}
+.logo{
+    width: 30%;
+}
+.logo img{
+    width: 80px;
+}
+.nav-head-menu{
+    display: flex;
+    align-items: center;
+    
+}
+.primary-menu{
+    width: 70%;
+}
+.primary-menu ul{
+    display: flex;
+   
+}
+
+.primary-menu ul li a{ 
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+    font-size: 20px;
+    position: relative;
+}
+.primary-menu ul li a::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 18px;
+    width: 75px;
+    height: 2px;
+    background-color: white;
+}
+/* content section */
+.content-section{
+    display: flex;
+   
+}
+.right-content{
+    width: 20%;
+    background-color: #d2d2d2;
+    margin-top: 50px;
+    margin-bottom: -30px;
+    padding: 30px;
+    border-left: 2px solid red;
+}
+.right-pic img{
+    margin-top: 10px;
+}
+.left-content{
+    width: 80%;
+}
+.inner-div{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.innner-title{
+    background-color: rgb(223, 39, 39);
+    width: 85px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+.inner-first{
+    width: 300px;
+    height: 200px;
+    border: 2px solid green;
+}
+.inner-div .inner-first p{
+    background-color: red;
+    padding: 10px 10px;
+    display: inline-block;
+    color: white;
+
+}
+
+.two{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+
+
+.three{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.secont-inner-div{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.inner-second{
+    /* width: 300px;
+    height: 150px; */
+    border: 2px solid green;
+     padding: 25px 20px; 
+    box-sizing: border-box; 
+    margin: 0px 30px;
+    flex: 1;
+}
+
+.second-second{
+    flex-grow: 2;
+}
+.third-inner-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.inner-third{
+    width: 300px;
+    height: 150px;
+    border: 2px solid green;
+}
+.inner-third p{
+    display: inline-block;
+    background-color: rgb(223, 33, 33);
+    padding: 5px 5px;
+    color: white;
+}
+.third-one{
+display: flex;
+justify-content: space-evenly;
+padding: 15px 0;
+box-sizing: border-box;
+}
+.third-one p{
+    border: 1px solid green;
+    
+}
+.third-two{
+display: flex;
+flex-wrap: wrap;
+padding: 15px 15px;
+box-sizing: border-box;
+}
+.third-two p{
+    border: 1px solid green;
+}
+.three-three{
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+.centter{
+    align-self: center;
+}
+ .endd{
+    align-self: flex-end;
+}
+.three-three p{
+    border: 1px solid green;
+}
+/* footer section */
+.footer-section {
+    margin-top: 50px;
+    background-color: black;
+    padding: 15px 0;
+}
+.footer-section ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section ul li a{
+    display: block;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    
+}
+.footer-section ul li a::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    width: 80px;
+    height: 2px;
+     background-color: white;
+}
